@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Mar 29 08:59:29 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>51 seconds (51904 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.restassured.tests.PatchAPIRequest.patchAPIRequest()'><b>patchAPIRequest</b><br>Test class: com.restassured.tests.PatchAPIRequest</td>
+<td></td>
+<td>7</td>
+<td>com.restassured.tests.PatchAPIRequest@19defdc</td></tr>
+<tr>
+<td title='com.restassured.tests.GetAPIRequest.getAllBookings()'><b>getAllBookings</b><br>Test class: com.restassured.tests.GetAPIRequest</td>
+<td></td>
+<td>2</td>
+<td>com.restassured.tests.GetAPIRequest@186805d</td></tr>
+<tr>
+<td title='com.restassured.tests.PostAPIRequest.createBooking()'><b>createBooking</b><br>Test class: com.restassured.tests.PostAPIRequest</td>
+<td></td>
+<td>2</td>
+<td>com.restassured.tests.PostAPIRequest@317edc</td></tr>
+<tr>
+<td title='com.restassured.tests.DatadrivenapitestingusingJson.DataDrivenUsingJson()'><b>DataDrivenUsingJson</b><br>Test class: com.restassured.tests.DatadrivenapitestingusingJson<br>Parameters: {firstname=krishna, lastname=api testing using json file}</td>
+<td></td>
+<td>1</td>
+<td>com.restassured.tests.DatadrivenapitestingusingJson@78324b</td></tr>
+<tr>
+<td title='com.restassured.tests.PostAPIRequestUsingFile.postAPIRequest()'><b>postAPIRequest</b><br>Test class: com.restassured.tests.PostAPIRequestUsingFile</td>
+<td></td>
+<td>5</td>
+<td>com.restassured.tests.PostAPIRequestUsingFile@86dbc5</td></tr>
+<tr>
+<td title='com.restassured.tests.EndtoEndAPIRequest.EndToEndAPIRequest()'><b>EndToEndAPIRequest</b><br>Test class: com.restassured.tests.EndtoEndAPIRequest</td>
+<td></td>
+<td>8</td>
+<td>com.restassured.tests.EndtoEndAPIRequest@52c06f</td></tr>
+<tr>
+<td title='com.restassured.tests.DatadrivenapitestingusingJson.DataDrivenUsingJson()'><b>DataDrivenUsingJson</b><br>Test class: com.restassured.tests.DatadrivenapitestingusingJson<br>Parameters: {firstname=shiva, lastname=api testing using json file}</td>
+<td></td>
+<td>1</td>
+<td>com.restassured.tests.DatadrivenapitestingusingJson@78324b</td></tr>
+<tr>
+<td title='com.restassured.tests.PutAPIRequest.putAPIRequest()'><b>putAPIRequest</b><br>Test class: com.restassured.tests.PutAPIRequest</td>
+<td></td>
+<td>5</td>
+<td>com.restassured.tests.PutAPIRequest@1cb8225</td></tr>
+<tr>
+<td title='com.restassured.tests.DatadrivenapitestingusingJson.DataDrivenUsingJson()'><b>DataDrivenUsingJson</b><br>Test class: com.restassured.tests.DatadrivenapitestingusingJson<br>Parameters: {firstname=dodda, lastname=api testing using json file}</td>
+<td></td>
+<td>1</td>
+<td>com.restassured.tests.DatadrivenapitestingusingJson@78324b</td></tr>
+<tr>
+<td title='com.restassured.tests.PostAPIRequestUsingPojos.postAPIReqeust()'><b>postAPIReqeust</b><br>Test class: com.restassured.tests.PostAPIRequestUsingPojos</td>
+<td></td>
+<td>3</td>
+<td>com.restassured.tests.PostAPIRequestUsingPojos@b07f29</td></tr>
+<tr>
+<td title='com.restassured.tests.Allurereportgeneration.EndToEndAPIRequest()'><b>EndToEndAPIRequest</b><br>Test class: com.restassured.tests.Allurereportgeneration<br>Test method: End to End to api testing</td>
+<td></td>
+<td>9</td>
+<td>com.restassured.tests.Allurereportgeneration@18d68ff</td></tr>
+<tr>
+<td title='com.restassured.tests.DatadrivenapitestingusingJson.DataDrivenUsingJson()'><b>DataDrivenUsingJson</b><br>Test class: com.restassured.tests.DatadrivenapitestingusingJson<br>Parameters: {firstname=rama, lastname=api testing using json file}</td>
+<td></td>
+<td>1</td>
+<td>com.restassured.tests.DatadrivenapitestingusingJson@78324b</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="51904" started-at="2024-03-29T08:59:29 IST" finished-at="2024-03-29T09:00:21 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="51904" started-at="2024-03-29T08:59:29 IST" finished-at="2024-03-29T09:00:21 IST">
+      <class name="com.restassured.tests.PostAPIRequestUsingPojos">
+        <test-method status="PASS" signature="postAPIReqeust()[pri:0, instance:com.restassured.tests.PostAPIRequestUsingPojos@b07f29]" name="postAPIReqeust" duration-ms="3651" started-at="2024-03-29T09:00:17 IST" finished-at="2024-03-29T09:00:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postAPIReqeust -->
+      </class> <!-- com.restassured.tests.PostAPIRequestUsingPojos -->
+      <class name="com.restassured.tests.DatadrivenapitestingusingJson">
+        <test-method status="PASS" signature="DataDrivenUsingJson(java.util.LinkedHashMap)[pri:0, instance:com.restassured.tests.DatadrivenapitestingusingJson@78324b]" name="DataDrivenUsingJson" duration-ms="1717" started-at="2024-03-29T08:59:36 IST" data-provider="getTestData" finished-at="2024-03-29T08:59:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstname=shiva, lastname=api testing using json file}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenUsingJson -->
+        <test-method status="PASS" signature="DataDrivenUsingJson(java.util.LinkedHashMap)[pri:0, instance:com.restassured.tests.DatadrivenapitestingusingJson@78324b]" name="DataDrivenUsingJson" duration-ms="1398" started-at="2024-03-29T08:59:38 IST" data-provider="getTestData" finished-at="2024-03-29T08:59:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstname=rama, lastname=api testing using json file}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenUsingJson -->
+        <test-method status="PASS" signature="DataDrivenUsingJson(java.util.LinkedHashMap)[pri:0, instance:com.restassured.tests.DatadrivenapitestingusingJson@78324b]" name="DataDrivenUsingJson" duration-ms="1303" started-at="2024-03-29T08:59:39 IST" data-provider="getTestData" finished-at="2024-03-29T08:59:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstname=krishna, lastname=api testing using json file}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenUsingJson -->
+        <test-method status="PASS" signature="DataDrivenUsingJson(java.util.LinkedHashMap)[pri:0, instance:com.restassured.tests.DatadrivenapitestingusingJson@78324b]" name="DataDrivenUsingJson" duration-ms="1301" started-at="2024-03-29T08:59:40 IST" data-provider="getTestData" finished-at="2024-03-29T08:59:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstname=dodda, lastname=api testing using json file}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenUsingJson -->
+      </class> <!-- com.restassured.tests.DatadrivenapitestingusingJson -->
+      <class name="com.restassured.tests.GetAPIRequest">
+        <test-method status="PASS" signature="getAllBookings()[pri:0, instance:com.restassured.tests.GetAPIRequest@186805d]" name="getAllBookings" duration-ms="2012" started-at="2024-03-29T09:00:01 IST" finished-at="2024-03-29T09:00:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllBookings -->
+      </class> <!-- com.restassured.tests.GetAPIRequest -->
+      <class name="com.restassured.tests.PostAPIRequest">
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.restassured.tests.PostAPIRequest@317edc]" name="beforemethod" is-config="true" duration-ms="1" started-at="2024-03-29T08:59:49 IST" finished-at="2024-03-29T08:59:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="createBooking()[pri:0, instance:com.restassured.tests.PostAPIRequest@317edc]" name="createBooking" duration-ms="2702" started-at="2024-03-29T08:59:49 IST" finished-at="2024-03-29T08:59:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBooking -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.restassured.tests.PostAPIRequest@317edc]" name="afterMethod" is-config="true" duration-ms="1" started-at="2024-03-29T08:59:52 IST" finished-at="2024-03-29T08:59:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createBooking status=SUCCESS method=PostAPIRequest.createBooking()[pri:0, instance:com.restassured.tests.PostAPIRequest@317edc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.restassured.tests.PostAPIRequest -->
+      <class name="com.restassured.tests.PatchAPIRequest">
+        <test-method status="PASS" signature="patchAPIRequest()[pri:0, instance:com.restassured.tests.PatchAPIRequest@19defdc]" name="patchAPIRequest" duration-ms="7260" started-at="2024-03-29T08:59:42 IST" finished-at="2024-03-29T08:59:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patchAPIRequest -->
+      </class> <!-- com.restassured.tests.PatchAPIRequest -->
+      <class name="com.restassured.tests.PutAPIRequest">
+        <test-method status="PASS" signature="putAPIRequest()[pri:0, instance:com.restassured.tests.PutAPIRequest@1cb8225]" name="putAPIRequest" duration-ms="5601" started-at="2024-03-29T09:00:12 IST" finished-at="2024-03-29T09:00:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putAPIRequest -->
+      </class> <!-- com.restassured.tests.PutAPIRequest -->
+      <class name="com.restassured.tests.EndtoEndAPIRequest">
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.restassured.tests.EndtoEndAPIRequest@52c06f]" name="beforemethod" is-config="true" duration-ms="1" started-at="2024-03-29T09:00:03 IST" finished-at="2024-03-29T09:00:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="EndToEndAPIRequest()[pri:0, instance:com.restassured.tests.EndtoEndAPIRequest@52c06f]" name="EndToEndAPIRequest" duration-ms="8659" started-at="2024-03-29T09:00:03 IST" finished-at="2024-03-29T09:00:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndToEndAPIRequest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.restassured.tests.EndtoEndAPIRequest@52c06f]" name="afterMethod" is-config="true" duration-ms="2" started-at="2024-03-29T09:00:12 IST" finished-at="2024-03-29T09:00:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EndToEndAPIRequest status=SUCCESS method=EndtoEndAPIRequest.EndToEndAPIRequest()[pri:0, instance:com.restassured.tests.EndtoEndAPIRequest@52c06f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.restassured.tests.EndtoEndAPIRequest -->
+      <class name="com.restassured.tests.Allurereportgeneration">
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.restassured.tests.Allurereportgeneration@18d68ff]" name="beforemethod" is-config="true" duration-ms="0" started-at="2024-03-29T08:59:52 IST" finished-at="2024-03-29T08:59:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="EndToEndAPIRequest()[pri:0, instance:com.restassured.tests.Allurereportgeneration@18d68ff]" name="EndToEndAPIRequest" duration-ms="9267" started-at="2024-03-29T08:59:52 IST" description="End to End to api testing" finished-at="2024-03-29T09:00:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndToEndAPIRequest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.restassured.tests.Allurereportgeneration@18d68ff]" name="afterMethod" is-config="true" duration-ms="1" started-at="2024-03-29T09:00:01 IST" finished-at="2024-03-29T09:00:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EndToEndAPIRequest status=SUCCESS method=Allurereportgeneration.EndToEndAPIRequest()[pri:0, instance:com.restassured.tests.Allurereportgeneration@18d68ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.restassured.tests.Allurereportgeneration -->
+      <class name="com.restassured.tests.PostAPIRequestUsingFile">
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.restassured.tests.PostAPIRequestUsingFile@86dbc5]" name="beforemethod" is-config="true" duration-ms="697" started-at="2024-03-29T08:59:29 IST" finished-at="2024-03-29T08:59:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="postAPIRequest()[pri:0, instance:com.restassured.tests.PostAPIRequestUsingFile@86dbc5]" name="postAPIRequest" duration-ms="5952" started-at="2024-03-29T08:59:30 IST" finished-at="2024-03-29T08:59:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postAPIRequest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.restassured.tests.PostAPIRequestUsingFile@86dbc5]" name="afterMethod" is-config="true" duration-ms="3" started-at="2024-03-29T08:59:36 IST" finished-at="2024-03-29T08:59:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=postAPIRequest status=SUCCESS method=PostAPIRequestUsingFile.postAPIRequest()[pri:0, instance:com.restassured.tests.PostAPIRequestUsingFile@86dbc5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.restassured.tests.PostAPIRequestUsingFile -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

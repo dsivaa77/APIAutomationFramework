@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-28T11:53:12 IST" name="Suite" finished-at="2024-03-28T11:53:24 IST" duration-ms="11851">
+    <groups>
+    </groups>
+    <test started-at="2024-03-28T11:53:12 IST" name="Test" finished-at="2024-03-28T11:53:24 IST" duration-ms="11851">
+      <class name="com.restassured.tests.EndtoEndAPIRequest">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.restassured.tests.EndtoEndAPIRequest@67c27493]" started-at="2024-03-28T11:53:12 IST" name="beforemethod" finished-at="2024-03-28T11:53:12 IST" duration-ms="482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="EndToEndAPIRequest()[pri:0, instance:com.restassured.tests.EndtoEndAPIRequest@67c27493]" started-at="2024-03-28T11:53:12 IST" name="EndToEndAPIRequest" finished-at="2024-03-28T11:53:24 IST" duration-ms="11279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndToEndAPIRequest -->
+      </class> <!-- com.restassured.tests.EndtoEndAPIRequest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
